@@ -10,6 +10,12 @@
     color: #727272;
 }
 
+.section-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+
 .btn-primary{
     border: 0;
     border-radius: 8px;
@@ -33,12 +39,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.nav-title{
-    font-size: 45px;
-    font-weight: 700;
-    color: #131313;
 }
 
 nav > ul{
@@ -120,6 +120,19 @@ main{
     padding-left: 70px;
     padding-right: 70px;
 }
+
+/* Facts Section */
+.fact-cards-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fact-cards-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+}
+
 
 /* Responsive media queries */
 /* mobile devices */
