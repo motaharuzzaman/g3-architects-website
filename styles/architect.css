@@ -212,6 +212,19 @@ main{
     text-align: center;
 }
 
+/* Footer Section */
+.footer-container{
+    text-align: center;
+    border-radius: 8px;
+    background: #FFF4E7;
+    color: #424242;
+    margin: 130px 200px 200px 200px;
+    height: 100px;
+}
+
+.footer-text{
+    padding-top: 40px;
+}
 
 /* Responsive media queries */
 /* mobile devices */
